@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(62, 61, 83);
+}
+body{
+    background-color: rgb(238, 236, 230);
+    font-family: 'Playfair Display', serif;
+}
+ul,nav{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
+.menu{
+    background: none;
+    margin: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li a{
+    margin-right: 2rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: rgb(241, 141, 191);
+}
+section{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.banner{
+    justify-content: center;
+    min-height: 93vh;
+    color: aliceblue;
+    text-align: center;
+}
+.img{
+    background: white url('/recursos/images/banner.jpg') no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.banner h1{
+    font-size: 65px;
+    width: 240px;
+    letter-spacing: -1px;
+    line-height: 53px;
+    margin-top: 50px;
+}
+.banner h2{
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(241, 141, 191);
+    font-size: 29px;
+    margin-top: -15px;
+}
+.botones h2{
+    color: rgb(241, 141, 191);
+    font-size: 54px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.boton a{
+    margin-right: 4rem;
+    background: rgb(247, 161, 204);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.nosotros{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.texto{
+    width: 550px;
+    font-weight: bold;
+}
+.nosotros img{
+    width: 300px;
+}
+.nosotros h2{
+    color: rgb(241, 141, 191);
+    font-size: 54px;
+}
+.boton a:hover{
+    color: rgb(238, 236, 230);
+}
+footer{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background: rgb(241, 141, 191);
+    margin-top: 85px;
+    font-weight: bold;
+}
+.contactos h2{
+    color: rgb(238, 236, 230);
+    font-size: 54px;
+    margin-top: 15px;
+}
+.contactos ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactos li, i{
+    padding: 27px 100px;
+    text-align: center;
+    font-size: 50px;
+}
+.contactos p{
+    font-size: 16px;
+    margin-top: 10px;
+}
